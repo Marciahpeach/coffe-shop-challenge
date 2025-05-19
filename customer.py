@@ -1,7 +1,7 @@
 class Customer:
     def __init__(self, name):
-        self.name = name  # Use setter to enforce rules
-        self._orders = []  # Instance-level list of orders
+        self.name = name  
+        self._orders = []  
 
     @property
     def name(self):
