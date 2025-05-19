@@ -1,5 +1,5 @@
 class Order:
-    _all_orders = []  # Class-level to track all orders
+    _all_orders = [] 
 
     def __init__(self, customer, coffee, price):
         from customer import Customer
