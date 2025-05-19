@@ -4,7 +4,7 @@ class Coffee:
             raise TypeError("Name must be a string")
         if len(name) < 3:
             raise ValueError("Name must be at least 3 characters")
-        self._name = name  # Store directly, no setter for immutability
+        self._name = name  
 
     @property
     def name(self):
